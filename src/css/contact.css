@@ -1,0 +1,79 @@
+/*designing the contact.html*/
+.contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  width: 100%;
+  background: rgb(241, 210, 243);
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgb(222, 99, 189);
+}
+
+/*designing Body part of contact.html*/
+body {
+  background-image: url("../img/neon.PNG");
+}
+
+body .chicken {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 2px solid rgb(116, 220, 239);
+  right: 5%;
+  top: 20%;
+  -webkit-animation: ani02 5s linear infinite;
+          animation: ani02 5s linear infinite;
+}
+
+/*applying animation*/
+@-webkit-keyframes ani02 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ani02 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.contact {
+  border: dashed;
+}
+
+.contact .input_field input[type=text],
+.contact textarea {
+  border: 1px solid rgb(201, 12, 201);
+  width: 100%;
+  padding: 10px;
+}
+
+.contact .input_field input[type=email],
+.contact textarea {
+  border: 1px solid rgb(216, 28, 169);
+  width: 100%;
+  padding: 10px;
+}
+
+.contact .input_field input[type=date],
+.contact textarea {
+  border: 1px solid rgb(200, 13, 125);
+  width: 100%;
+  padding: 10px;
+}
+
+.btn input[type=submit] {
+  background: red;
+}
+.btn input[type=submit]:hover {
+  background-color: aqua;
+  text-transform: capitalize;
+}/*# sourceMappingURL=contact.css.map */
